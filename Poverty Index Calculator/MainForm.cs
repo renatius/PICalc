@@ -161,7 +161,7 @@ namespace PovertyIndexCalculator
         private void biHelpReadme_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             var dirname = Path.GetDirectoryName(Application.ExecutablePath);
-            var readme = Path.Combine(dirname, @"readme.pdf");
+            var readme = Path.Combine(dirname, @"Resources\readme.pdf");
 
             var process = new Process();
             process.StartInfo.UseShellExecute = true;
